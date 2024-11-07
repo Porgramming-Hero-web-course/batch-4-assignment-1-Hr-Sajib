@@ -1,10 +1,8 @@
 {
     const countWordOccurrences = (s : string, t : string) => {
 
-        // generelized to lower case and removed any symbols using regular expression
-        // for detecting words from a clean string, ex: typescript! -> typescript
-
-        const caseSolvedString = s.toLowerCase().replace(/[^a-zA-Z0-9 ]/g, "");
+        // generelized to lower case
+        const caseSolvedString = s.toLowerCase();
         const caseSolvedTarget = t.toLowerCase();
 
         const ar = caseSolvedString.split(' ');
@@ -19,7 +17,7 @@
 
     }
 
-    const r = countWordOccurrences("TypeScript is great. I love TypeScript!. So I use typescript everyday. Joy baba typescript.", "typescript");
+    const r = countWordOccurrences("TypeScript is great", "typescript");
 
     console.log(r)
 }
