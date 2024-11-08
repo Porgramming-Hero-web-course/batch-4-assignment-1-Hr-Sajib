@@ -1,1 +1,5 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16978514&assignment_repo_type=AssignmentRepo)
+
+ANS of Question 1
+
+The Union type and Intersection type features enable new capabilities for the coder to use multiple types for the crafting of new types out of them. Union allows combining types and Intersection allows taking out the common property types between multiple predeclared types.
+These type of scopes massively makes the coding in TS more handy.
